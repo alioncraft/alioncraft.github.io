@@ -4,7 +4,7 @@
 
 var timeLimit = 5000;
 window.addEventListener("load", function() {
-	window.location.href = "E:/Users/ASUS/Desktop/AlionCraft/HTML/Index.html";
+	window.location.href = "HTML/Index.html";
 });
 
 var errorTimer = setTimeout(function() {
