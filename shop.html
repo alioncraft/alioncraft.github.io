@@ -1,0 +1,238 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <!--=== Default Tags ===-->
+    <meta charset="UTF-8">
+    <title>AlionCraft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/logo.webp" type="image/x-icon">
+
+    <!--=== Stylesheets ===-->
+    <link rel="stylesheet" href="/CSS/Base.css">
+    <link rel="stylesheet" href="/CSS/Pages/Shop.css">
+
+    <link rel="stylesheet" href="/CSS/Sections/Main.css">
+    <link rel="stylesheet" href="/CSS/Sections/Header.css">
+    <link rel="stylesheet" href="/CSS/Sections/Footer.css">
+    <link rel="stylesheet" href="/CSS/Sections/Navbar.css">
+    <link rel="stylesheet" href="/CSS/Classes/Framework.css">
+
+    <!--=== Social Profile ===-->
+    <meta property="og:title" content="AlionCraft">
+    <meta property="og:description"
+      content="AlionCraft Official Server Site VIP's, Items, Skins, Stay Updated And More:)">
+    <meta property="og:thumbnail" content="Images/logo.webp">
+
+    <!--=== SEO ===-->
+    <meta name="description" content="AlionCraft Official Server Site VIP's, Items, Skins, Stay Updated And More:)">
+    <meta name="keywords" content="alioncraft, minecraft shop, minecraft server, alioncraft minecraft server">
+    <meta name="author" content="sziprohincs">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="cart">
+  </head>
+
+  <body>
+    <!--=== Navigation Bar ===-->
+    <nav class="nav">
+      <div class="nav-logo flex">
+        <img src="Images/logo.webp" alt="Logo" width="70px" height="70px">
+        <h1>AlionCraft</h1>
+      </div>
+
+      <div class="nav-list flex">
+        <a class="nav-item-1" href="/"><span>Home</span></a>
+        <a class="nav-item-2" href="shop"><span>Shop</span></a>
+        <a class="nav-item-3" href="rules"><span>Rules</span></a>
+        <a class="nav-item-4" href="gift"><span>Gift</span></a>
+        <a class="nav-item-5" href="https://discord.com/"><span>Discord</span></a>
+      </div>
+
+      <div class="flex">
+        <a href="login" class="nav-btn btn-login flex">
+          <img src="Images/login.webp" alt="Login icon" width="20px" height="20px">
+          <span>Login</span>
+        </a>
+
+        <a href="balance" class="nav-btn btn-sucess btn-cart flex">
+          <img src="Images/balance.png" alt="Shopping cart icon" width="20px" height="20px">
+          <span>Balance</span>
+        </a>
+      </div>
+    </nav>
+
+    <!--=== Navbar for mobile ===-->
+    <section class="nav-mobile">
+      <div class="nav-mobile-title flex">
+        <div class="navbars-bars">
+          <div class="bar bar-1"></div>
+          <div class="bar bar-2"></div>
+          <div class="bar bar-3"></div>
+        </div>
+
+        <div class="navbars-title flex">
+          <img src="Images/logo.webp" alt="AlionCraft server logo" width="30px" height="30px">
+          <h1>AlionCraft</h1>
+        </div>
+      </div>
+
+      <div class="nav-mobile-menu flex">
+        <a href="/"><span>Home</span></a>
+        <a href="shop"><span>Shop</span></a>
+        <a href="rules"><span>Rules</span></a>
+        <a href="gift"><span>Gift</span></a>
+        <a href="https://discord.com"><span>Discord</span></a>
+        <a href="login"><span>Login</span></a>
+        <a href="balance"><span>Balance</span></a>
+      </div>
+    </section>
+    
+  <!--=== Header ===-->
+  <header class="header header-text">
+    <h1>SHOP</h1>
+    <span>VIP And Skin</span>
+  </header>
+
+  <!--=== Main content ===-->
+  <main class="main">
+    <div class="container">
+      <div class="main-title flex">
+        <img src="Images/products.webp" alt="">
+        <h1 class="m-desktop-title">Products</h1>
+        <h1 class="m-mobile-title">Products</h1>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img src="Images/vip.png" alt="">
+
+          <div class="card-content">
+            <center>
+              <h2 style="color:gold">[VIP]</h2>
+            </center>
+          </div>
+
+          <a class="btn btn-sucess" id="buy-item-1">BUY</a>
+          <a class="btn btn-dark" id="open-popup-1">FEATURES</a>
+        </div>
+
+        <div class="card">
+          <img src="Images/mvip.png" alt="">
+
+          <div class="card-content">
+            <center>
+              <h2 style="color:green">[MVIP]</h2>
+            </center>
+          </div>
+
+          <a class="btn btn-sucess" id="buy-item-2">BUY</a>
+          <a class="btn btn-dark" id="open-popup-2">FEATURES</a>
+        </div>
+
+        <div class="card card-cosmetics">
+          <img src="Images/skin.png" alt="">
+
+          <div class="card-content">
+            <center>
+              <h2 style="color:red">[SKIN]</h2>
+            </center>
+          </div>
+
+          <a class="btn btn-sucess" id="buy-item-3">BUY</a>
+          <a class="btn btn-dark" id="open-popup-3">FEATURES</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!--=== Popups Overlay ===-->
+  <div class="overlay" id="overlay"></div>
+
+  <!--=== Page Popups ===-->
+  <section class="popups">
+    <div class="popup" id="benefits-1">
+      <div class="popup-content">
+        <h2 style="color:gold">[VIP]</h2>
+        <span>Features</span>
+
+        <ul>
+          <li>[VIP] Prefix</li>
+          <li>%5 Discount</li>
+          <li>And More...</li>
+        </ul>
+
+        <a class="btn btn-sucess" href="#" id="close-popup-1">OK</a>
+      </div>
+    </div>
+
+    <div class="popup" id="benefits-2">
+      <div class="popup-content">
+        <h2 style="color:green">[MVIP]</h2>
+        <span>Features</span>
+
+        <ul>
+          <li>[MVIP] Prefix</li>
+          <li>Fly Feature</li>
+          <li>%25 Discount</li>
+          <li>And More...</li>
+        </ul>
+
+        <a class="btn btn-sucess" href="#" id="close-popup-2">OK</a>
+      </div>
+    </div>
+
+    <div class="popup" id="benefits-3">
+      <div class="popup-content">
+        <h2 style="color:red">[SKIN]</h2>
+        <span>Features</span>
+
+        <ul>
+          <li>Available 1 Time</li>
+          <li>All Skins Valid</li>
+        </ul>
+
+        <a class="btn btn-sucess" href="#" id="close-popup-3">OK</a>
+      </div>
+    </div>
+
+
+
+    <!--=== Footer Section ===-->
+    <footer class="footer">
+      <div class="footer-container flex">
+        <div class="footer-credits">
+          <div class="footer-credits-photo flex">
+            <a class="flex" title="sziprohincs" href="#">
+              <img class="f-h" src="https://minotar.net/avatar/sziprohincs" alt="" width="50px" height="50px">
+              <h2>sziprohincs</h2>
+            </a>
+          </div>
+        </div>
+
+        <p>
+          ©2024 AlionCraft INC
+        </p>
+
+        <div class="footer-socials flex">
+          <a href="#" title="discord"><img class="discord-social" src="Images/discord.webp" alt="discord logo"
+              width="40px" height="40px"></a>
+          <a href="https://www.youtube.com/@AlienXSZ" title="youtube"><img class="yt-social" src="Images/youtube.webp"
+              alt="youtube logo" width="40px" height="40px"></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--=== Alert Section ===-->
+    <section class="alerts">
+      <div class="alerts-popup alert-popup-sucess" id="success-add">
+        <h2>ADDED CART</h2>
+      </div>
+    </section>
+
+    <script src="/JS/Shop.js"></script>
+    <script src="/JS/General.js"></script>
+</body>
+
+</html>
