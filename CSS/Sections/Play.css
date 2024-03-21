@@ -7,14 +7,14 @@
 	flex-direction: column;
 	justify-content: center;
 	color: var(--secondary-tc);
-	background-color: var(--secondary-bc);
+	background-color: white;
 }
 
 .play-content {
 	padding: 40px 50px;
 	border-radius: 10px;
 	background-color: var(--tertiary-bc);
-	border: 3px solid white;
+	border: 2px solid #777;
 	justify-content: space-between;
 	box-shadow: 0px 5px 0px #ffffff;
 }
